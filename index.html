@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <title>PureFuel Protein</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+  <div class="container nav">
+    <!-- Logo -->
+    <div class="logo">
+      <div class="mark"><a href="/">PFP</a></div>
+      <div class="text">PureFuel Protein</div>
+    </div>
+
+    <!-- Hamburger button
+    <button class="hamburger" id="hamburger">
+      ☰
+    </button> -->
+
+    <!-- Navigation -->
+    <nav id="nav-menu">
+      <ul>
+        <li><a href="#flavors">Flavors</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="tel:+4733378901">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <!-- Actions -->
+    <div class="actions" id="actions">
+      <form class="inline" id="newsletter">
+        <input type="email" id="email" placeholder="you@gmail.com" required />
+        <button class="btn" type="submit">Subscribe</button>
+      </form>
+      <button id="theme-toggle" class="btn btn-secondary">
+        🌙 Dark Mode
+      </button>
+    </div>
+  </div>
+</header>
+
+
+    <main class="container">
+        <!-- HERO -->
+        <section class="hero">
+            <div>
+                <div class="eyebrow">Nourish Your Hustle</div>
+                <h1>Premium protein, zero compromise — powerful nutrition made simple.</h1>
+                <p class="lead">Crafted with clean whey isolate and natural flavors. Low sugar, high protein. Delivered
+                    fresh to your door.</p>
+                <div id="extraContent" class="extra-content">
+                    PureFuel Protein gives you the clean boost you need without fillers.
+                    Every serving is packed with **24g of protein**, less than **1g of sugar**,
+                    and blended with natural flavors for a smooth taste.
+                    Perfect for fitness, recovery, or everyday nutrition.
+                </div>
+                <div class="hero-cta">
+                    <a href="#buy" id="toggleBtn" class="btn">read more</a>
+                </div>
+
+
+
+                <div class="cards">
+                    <div class="card">
+                        <strong>24g Protein</strong>
+                        <span class="muted">Per serving</span>
+                    </div>
+                    <div class="card">
+                        <strong>0g sugar</strong>
+                        <span class="muted">Sweetened naturally</span>
+                    </div>
+                    <div class="card">
+                        <strong>120 kcal</strong>
+                        <span class="muted">Light & efficient</span>
+                    </div>
+                    <div class="card">
+                        <strong>Fast delivery</strong>
+                        <span class="muted">Fresh &amp; insured</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="hero-img" role="img" aria-label="Bottle mockup">
+                <video src="/protein-drink/images/PureFuel Protein_video.mp4"></video>
+            </div> -->
+            <div class="hero-video-container">
+                <video src="./images/PureFuel_Protein_video.mp4" autoplay muted loop controls playsinline
+                    preload="metadata" aria-label="PureFuel Protein promotional video" class="hero-video"></video>
+            </div>
+
+
+        </section>
+
+
+
+        <!-- FLAVORS -->
+        <section id="flavors" class="section">
+            <div
+                style="display:flex;  flex-direction: column;justify-content:space-between;align-items:center;margin-bottom:1rem;width: 100%;">
+                <h2>Flavors</h2>
+                <h3>Choose your flavor crush the craving</h3>
+            </div>
+
+            <div class="flavors" id="flavors-grid">
+                <!-- flavors injected by JS -->
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="section about-section">
+            <div class="about-container">
+                <div class="about-text">
+                    <h2>About PureFuel Protein</h2>
+                    <p>
+                        At <strong>PureFuel Protein</strong>, we craft clean nutrition for modern lifestyles.
+                        No fillers. No gimmicks. Just <span class="highlight">premium whey isolate</span>
+                        with natural flavors and third-party testing for peace of mind.
+                    </p>
+                    <p>
+                        Designed for athletes, creators, and everyday hustlers — we fuel your goals
+                        while keeping it light, effective, and sustainable.
+                    </p>
+                </div>
+                <div class="about-image">
+                    <video src="./images/about.mp4" autoplay muted loop controls playsinline
+                        preload="metadata" aria-label="PureFuel Protein promotional video" class="hero-video"></video>
+                </div>
+
+
+            </div>
+        </section>
+
+
+
+        <!-- WHY CHOOSE US -->
+        <section id="why" class="section why-section">
+            <div class="why-container">
+                <h2>Why Choose PureFuel?</h2>
+                <p class="lead">We’re not just protein — we’re your partner in performance, recovery, and everyday
+                    health.</p>
+
+                <div class="why-grid">
+                    <div class="why-card fade-up">
+                        <img src="https://img.icons8.com/color/96/dumbbell.png" alt="Performance Icon">
+                        <h3>Performance</h3>
+                        <p>Scientifically formulated with 24g whey isolate per serving to boost strength & endurance.
+                        </p>
+                    </div>
+
+                    <div class="why-card fade-up">
+                        <img src="https://img.icons8.com/color/96/leaf.png" alt="Clean Nutrition Icon">
+                        <h3>Clean Nutrition</h3>
+                        <p>No fillers, no added sugar, just natural flavors with third-party lab testing.</p>
+                    </div>
+
+                    <div class="why-card fade-up">
+                        <img src="https://cdn-icons-png.flaticon.com/512/10053/10053703.png" alt="Fast Delivery Icon">
+                        <h3>Fast Delivery</h3>
+                        <p>Get your protein delivered fresh and fast, with guaranteed quality & freshness.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TESTIMONIALS -->
+        <section id="testimonials" class="section testimonials-section">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonials-container" id="testimonial-track">
+                <div class="testimonial">
+                    <p>“PureFuel Protein is a game changer! Keeps me energized after workouts without the sugar crash.”
+                    </p>
+                    <strong>- Rahul S.</strong>
+                </div>
+                <div class="testimonial">
+                    <p>“Best tasting protein drink I’ve ever had. Smooth, clean, and perfect for busy mornings.”</p>
+                    <strong>- Meera K.</strong>
+                </div>
+                <div class="testimonial">
+                    <p>“Fast delivery and amazing results. I’ve made it part of my daily routine.”</p>
+                    <strong>- Aarav P.</strong>
+                </div>
+                <div class="testimonial">
+                    <p>“Finally, a protein brand that feels honest and healthy. Highly recommended!”</p>
+                    <strong>- Kiara M.</strong>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- FOOTER -->
+        <footer class="site-footer">
+            <div class="footer-brand">PureFuel Protein</div>
+
+            <!-- Footer Navigation -->
+            <ul class="footer-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+
+            <!-- Social Links -->
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+
+            <p class="footer-copy">
+                © 2025 PureFuel Protein | Built with ❤️ by Adnan Alam
+            </p>
+        </footer>
+
+
+    </main>
+
+    <script src="protein.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</body>
+
+</html>
